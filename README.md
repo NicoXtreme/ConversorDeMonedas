@@ -55,3 +55,8 @@ Para utilizar el conversor de monedas, simplemente descarga el archivo JAR que s
    java -jar nombre_del_archivo.jar
 ### 🚧 Futuras Mejoras
 Actualmente, también estoy desarrollando una versión web de este conversor de monedas. Planeo implementar esta funcionalidad una vez adquiera más conocimientos sobre cómo enviar información del lado del frontend al backend.
+
+https://github.com/user-attachments/assets/081b6794-e9bd-42d0-872d-7dcda91338ca
+
+
+

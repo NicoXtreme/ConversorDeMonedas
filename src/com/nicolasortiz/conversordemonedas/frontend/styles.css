@@ -1,0 +1,146 @@
+/* Fuentes y colores */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --color-primario: #F3F5FC;
+    --color-secundario: #0A3871;
+    --color-terciario: #FFFFFF;
+    --color-extra: #D8DFE8;
+    --color-extra2: #052051;
+    --color-texto-advertencia: #495057;
+    --color-texto-encriptado: #343A40;
+    --fuente-inter: "Inter", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-primario);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Estilos generales */
+* {
+    font-family: var(--fuente-inter);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    flex-grow: 1;
+}
+
+.contenedor__logo {
+    width: 7vw;
+    padding-left: 3.125rem;
+}
+
+.logo__imagen {
+    padding-top: 2.5rem;
+    width: 100%;
+}
+
+.contenedor__texto {
+    width: 40vw;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2rem;
+    color: var(--color-secundario);
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    color: var(--color-secundario);
+    margin: 1rem 0 0.5rem 0;
+}
+
+.select, .input {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-extra);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--color-secundario);
+}
+
+.result {
+    background-color: var(--color-extra);
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    color: var(--color-secundario);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.boton {
+    border-radius: 1.5rem;
+    cursor: pointer;
+    height: 3.5rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.boton--convertir {
+    background-color: var(--color-secundario);
+    color: var(--color-terciario);
+    border: none;
+    margin-top: 1.5rem;
+}
+
+.boton--convertir:hover {
+    background-color: var(--color-extra2);
+}
+
+/* Footer */
+.pie {
+    color: var(--color-extra);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    font-size: 1rem;
+    position: relative;
+    width: 100%;
+}
+
+.pie__texto {
+    margin: 0;
+    color: var(--color-terciario);
+}
+
+.pie__enlaces {
+    display: flex;
+    gap: 1.875rem;
+    margin-top: 1rem;
+}
+
+.pie__enlaces a img {
+    width: 30px;
+    transition: transform 0.3s;
+}
+
+.pie__enlaces a img:hover {
+    transform: scale(1.2);
+}

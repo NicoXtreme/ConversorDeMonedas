@@ -1,10 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-$END$
+<main class="contenedor">
+    <section class="contenedor__logo">
+        <img class="logo__imagen" src="assets/logoAlura.png" alt="Imagen del logo de Alura">
+    </section>
+
+    <section class="contenedor__texto">
+        <h1 class="titulo">Conversor de Monedas</h1>
+
+        <label for="fromCurrency">Moneda a convertir</label>
+        <select id="fromCurrency" class="select"></select>
+
+        <label for="toCurrency">Moneda objetivo</label>
+        <select id="toCurrency" class="select"></select>
+
+        <!-- Cantidad a convertir -->
+        <label for="amount">Cantidad</label>
+        <input type="number" id="amount" class="input" placeholder="Introduce la cantidad a convertir" step="0.01" required>
+
+        <!-- Resultado convertido -->
+        <div class="result" id="convertedValue">Resultado: 0.00</div>
+
+        <!-- Botón para convertir -->
+        <button id="convertButton" class="boton boton--convertir">Convertir</button>
+    </section>
+</main>
+
+<footer class="pie">
+    <p class="pie__texto">Desarrollado por Nicolás Ortiz</p>
+    <div class="pie__enlaces">
+        <a href="https://github.com/NicoXtreme"><img src="assets/github.png" width="30px" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/nicol%C3%A1s-francisco-ortiz-luna-a5586b1ab/"><img src="assets/linkedin.png" width="30px" alt="LinkedIn"></a>
+    </div>
+</footer>
+
+<script>
+    // Cargar los códigos de moneda desde el JSON generado
+    fetch('../../../../codigos_moneda.json')
+        .then(response => response.json())
+        .then(data => {
+            const fromCurrencySelect = document.getElementById('fromCurrency');
+            const toCurrencySelect = document.getElementById('toCurrency');
+
+            data.forEach(moneda => {
+                const optionFrom = document.createElement('option');
+                optionFrom.value = moneda.codigo;
+                optionFrom.textContent = `${moneda.codigo} - ${moneda.nombre}`;
+                fromCurrencySelect.appendChild(optionFrom);
+
+                const optionTo = document.createElement('option');
+                optionTo.value = moneda.codigo;
+                optionTo.textContent = `${moneda.codigo} - ${moneda.nombre}`;
+                toCurrencySelect.appendChild(optionTo);
+            });
+        })
+        .catch(error => console.error('Error al cargar los códigos de moneda:', error));
+</script>
+
 </body>
 </html>

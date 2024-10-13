@@ -1,31 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a305aa74-9599-4b87-8623-75e158fed5cc" name="Changes" comment="" />
+    <list default="true" id="a305aa74-9599-4b87-8623-75e158fed5cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConversorDeMonedas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nicolasortiz/conversordemonedas/backend/modelos/ApiConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nicolasortiz/conversordemonedas/backend/modelos/Moneda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nicolasortiz/conversordemonedas/backend/modelos/RespuestaCodigos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nicolasortiz/conversordemonedas/backend/modelos/RespuestaConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nicolasortiz/conversordemonedas/backend/principal/ConversorMonedasGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nicolasortiz/conversordemonedas/backend/principal/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nicolasortiz/conversordemonedas/frontend/assets/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nicolasortiz/conversordemonedas/frontend/assets/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nicolasortiz/conversordemonedas/frontend/assets/logoAlura.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nicolasortiz/conversordemonedas/frontend/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nicolasortiz/conversordemonedas/frontend/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2nJW7KoT2fcsEuFvepkcz3WW6Br" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConversorGUI.executor": "Run",
+    "Application.Principal.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/nicox/OneDrive/Escritorio/Alura/Alura Challenge 2/ConversorDeMonedas/Bibliotecas/spark-core_2.13-3.5.3.jar",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nicox\OneDrive\Escritorio\Alura\Alura Challenge 2\ConversorDeMonedas\Bibliotecas" />
+      <recent name="C:\Users\nicox\OneDrive\Escritorio\Alura\Alura Challenge 2\ConversorDeMonedas\src\com\nicolasortiz\conversordemonedas\frontend" />
+      <recent name="C:\Users\nicox\OneDrive\Escritorio\Alura\Alura Challenge 2\ConversorDeMonedas" />
+      <recent name="C:\Users\nicox\OneDrive\Escritorio\Alura\Alura Challenge 2\ConversorDeMonedas\out" />
+      <recent name="C:\Users\nicox\OneDrive\Escritorio\Alura\Alura Challenge 2\ConversorDeMonedas\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,5 +89,16 @@
       <updated>1728691493196</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
